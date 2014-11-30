@@ -1,5 +1,5 @@
 # Set paths
-set npm_bin (npm bin)
+set npm_bin -e (npm bin)
 eval set -x PATH $npm_bin (~/.config/bin/get-paths)
 
 # Set aliases
