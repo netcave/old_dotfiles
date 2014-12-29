@@ -1,4 +1,4 @@
-#!/home/seanstrom/.linuxbrew/bin/zsh
+#!/bin/sh
 
 last_status=$1
 
