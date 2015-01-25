@@ -69,11 +69,11 @@ set listchars=tab:\ »
 
 " Theme Settings
 if filereadable(expand('~/.vimrc.theme'))
-  source ~/.vimrc.theme
+  so ~/.vimrc.theme
 endif
 
 
 " Local Ovverides
 if filereadable(expand('~/.vimrc.local'))
-  source ~/.vimrc.local
+  so ~/.vimrc.local
 endif
