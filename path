@@ -14,6 +14,12 @@
 ./node_modules/.bin
 ~/.config/node/node_modules/.bin
 
+# Haskell
+~/.cabal/bin
+
+# Local Bin
+~/bin
+
 # System binaries:
 ~/.linuxbrew/bin
 /usr/local/sbin
@@ -24,4 +30,3 @@
 /bin
 /usr/local/games
 /usr/games
-~/.bin
