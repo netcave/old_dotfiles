@@ -10,7 +10,7 @@ filetype plugin indent on
 
 " General
 set backspace=2       " Make backspace delete
-set clipboard=unnamedplus " Make vim share clipboard with system
+set clipboard=unnamed " Make vim share clipboard with system
 
 
 " Tab indenting
