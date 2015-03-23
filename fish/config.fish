@@ -1,6 +1,7 @@
 # Set paths
 set npm_bin -e (npm bin)
 eval set -x PATH $npm_bin (~/.config/bin/get-paths)
+set -gx PATH $PATH
 
 # Set aliases
 for val in (get-aliases " ")
@@ -18,7 +19,7 @@ if which rbenv > /dev/null
 end
 
 # Load custom settings for current user
-set local_settings_file ~/config.fish.local
+set local_settings_file ~/.config.fish.local
 
 if test -f $local_settings_file
    . $local_settings_file

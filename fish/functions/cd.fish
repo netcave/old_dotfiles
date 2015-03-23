@@ -11,7 +11,9 @@ function __npm_cwd --on-event cwd
     switch $PATH[$i]
       case $old_npm_bin
         if test -d $npm_bin
-          set PATH[$i] $npm_bin
+          set -gx PATH[$i] $npm_bin
+        else
+          set -gx PATH[$i] (echo ~)
         end
     end
   end
