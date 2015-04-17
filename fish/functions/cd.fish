@@ -18,3 +18,4 @@ function __npm_cwd --on-event cwd
     end
   end
 end
+
