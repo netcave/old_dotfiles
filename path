@@ -7,6 +7,9 @@
 # Dotfile bin:
 ~/.config/bin
 
+# Go
+~/.gopath/bin
+
 # Ruby:
 ~/.rbenv/shims
 

@@ -8,3 +8,4 @@ while read LINE; do eval "alias $LINE"; done < <(get-aliases =)
 precmd () { export PS1="$(~/.config/bin/echo-ps1 $?)" }
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/sean/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

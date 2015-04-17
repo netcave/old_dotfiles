@@ -14,3 +14,4 @@ export PROMPT_COMMAND="export PS1=\$(~/.config/bin/echo-ps1 \$?)"
 
 stty -ixon
 bind -r '\C-s'
+if [ -e /home/sean/.nix-profile/etc/profile.d/nix.sh ]; then . /home/sean/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer

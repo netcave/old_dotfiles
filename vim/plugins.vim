@@ -1,9 +1,9 @@
-so ~/.config/vim/plug.vim/plug.vim
-call plug#begin('~/.config/vim/plug.vim/data')
+call plug#begin('~/.vim/plugged')
 
 Plug 'alexdavid/nerdtree_icons'
 Plug 'alexdavid/vim-min-git-status'
 Plug 'altercation/vim-colors-solarized'
+
 Plug 'bling/vim-airline'
 Plug 'bruno-/vim-husk'
 Plug 'christoomey/vim-tmux-navigator'
