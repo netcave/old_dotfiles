@@ -1,7 +1,6 @@
 # Set paths
-set npm_bin -e (npm bin)
-eval set -x PATH $npm_bin (~/.config/bin/get-paths)
-set -gx PATH $PATH
+set npm_bin (npm bin)
+eval set -gx PATH $npm_bin (~/.config/bin/get-paths)
 
 # Set aliases
 for val in (get-aliases " ")
